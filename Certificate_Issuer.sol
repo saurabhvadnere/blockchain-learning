@@ -49,3 +49,6 @@ contract CertificateIssuer {
         );
     }
 }
+
+// Deployed on sepolia testnet
+contract address = 0x8906899D167A0365508c2dC70E7d0284BF3822B4
