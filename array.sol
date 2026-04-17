@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract SimpleArray{
     uint [] num;
 
-    function addNumber(uint _number) public{
+    function addNumbers (uint _number) public{
         num.push(_number);
     }
     function getNumber(uint _index) public view returns (uint){

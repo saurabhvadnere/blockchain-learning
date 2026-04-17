@@ -328,5 +328,13 @@
         "file": "SimpleWallet.sol"
       }
     }
+  },
+  "array.sol": {
+    "__sources__": {
+      "array.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract SimpleArray{\r\n    uint [] num;\r\n\r\n    function addNumbers (uint _number) public{\r\n        num.push(_number);\r\n    }\r\n    function getNumber(uint _index) public view returns (uint){\r\n        require(_index<num.length,\"Index not listed yet\");\r\n        return num[_index];\r\n    }\r\n\r\n    function getAll () public view returns (uint [] memory){\r\n        return num;\r\n    }\r\n\r\n    function getFirst () public view returns (uint){\r\n        return num[0];\r\n    }\r\n\r\n    function remove_Number() public{\r\n        num.pop();\r\n}\r\n}",
+        "file": "array.sol"
+      }
+    }
   }
 }

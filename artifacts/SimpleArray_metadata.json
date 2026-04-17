@@ -13,7 +13,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "addNumber",
+				"name": "addNumbers",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"array.sol": {
-			"keccak256": "0x1669a6a4b4491fa955e857f53249348d4069d834b239ec9e3c4241ca7885f48f",
+			"keccak256": "0x32789d8c631618f0f2305a97062ee6368368f141cb7ca1d500003a3acaf4307f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8292c9e88bb75fbf4d4dadd2de82910376231a84895108e83ba8e84d71844500",
-				"dweb:/ipfs/QmYygnJcVzJ1jGJ6tTmhQh9bhT51K5UkGm4aQf6g9cPuN8"
+				"bzz-raw://033b403ec2f79d4006ba1d54c9be535330f296c8dbf1390dfa584a6a5d58fe52",
+				"dweb:/ipfs/QmR6A2ebrTN3SeH4f7TaHog8UFzPz3mStnVhazme3hdQBR"
 			]
 		}
 	},
