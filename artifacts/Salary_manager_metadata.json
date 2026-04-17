@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deductions",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pf",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tds",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "employee_address",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salary",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "increment",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pf",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tds",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_details",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salary",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "increment",
+						"type": "uint256"
+					}
+				],
+				"name": "set_details",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tp/empl.sol": "Salary_manager"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tp/empl.sol": {
+			"keccak256": "0xd8ebcd567d57b4d4a8b8eb517422d7473ca2852967c98484dee3ffca500a63b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://41bb943fd586c6c410b11bf760b2234b344eadf6fc8d40a89ff2e33f420a302d",
+				"dweb:/ipfs/QmRn7qV28Nqzy23BHYmsCcHucpVoNB16ZEZHEa1SjXPm1n"
+			]
+		}
+	},
+	"version": 1
+}

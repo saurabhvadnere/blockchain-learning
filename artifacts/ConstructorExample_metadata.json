@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "EntryFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tp/constructor.sol": "ConstructorExample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tp/constructor.sol": {
+			"keccak256": "0xd47da80dcbce0509babbb9429f7c642f749878c8167235ec73df765f311b9fe4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc319c2f9fc73414ac8dae1a8b7ecec2c852a229b791c09906b8a47f1e983ec0",
+				"dweb:/ipfs/QmVQzCbn5jocjp4K8KHALW77zMCiJQa1u8SpWuaM3L3g1U"
+			]
+		}
+	},
+	"version": 1
+}

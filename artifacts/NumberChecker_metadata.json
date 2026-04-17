@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllNumbers",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tp/tp1.sol": "NumberChecker"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tp/tp1.sol": {
+			"keccak256": "0xc270bf6a6eac68967b6da717b46a7b37ee1366dd0f32aca0f7f5ed2e55a9cffd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a17a31fe39d96a05117abc152a2f4a18fd112028aec370ddaec283cae42e54c3",
+				"dweb:/ipfs/QmXLGfjeFc2hNtZzjh3FofBvPmyMBWzyAiUNro4AZt13hj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "M_array",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"maxArray.sol": "Maximumarray"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"maxArray.sol": {
+			"keccak256": "0x92459116183fac58bee4584aa0f75418d7c270d5e97298e938d24b2ccb47266e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d681529b02131ef81820bc480a7b21b7fab4b5b41d96f44859c9a1459f23e21a",
+				"dweb:/ipfs/QmXQnRH7nZcaf2b8RCfWfBC4ubMebpaoseH2VUrthVpWFX"
+			]
+		}
+	},
+	"version": 1
+}

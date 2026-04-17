@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Exam_Project.sol/MCQ.sol": "MCQ"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Exam_Project.sol/MCQ.sol": {
+			"keccak256": "0x0df02df98819c3d8faebe93362f3536365214effece2695170a98f14817083fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://268f2125e80f70178c6ad39d488a9d3d73c20e7df42319b5de120e4f0b6cd6a7",
+				"dweb:/ipfs/QmUTJMVw4p5sVBDp8mXTJwttRUMAEcXjHL4XUUQEkgvUwP"
+			]
+		}
+	},
+	"version": 1
+}

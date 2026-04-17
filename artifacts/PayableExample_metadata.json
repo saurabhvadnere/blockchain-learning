@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleWallet.sol": "PayableExample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleWallet.sol": {
+			"keccak256": "0x450bf093e122f0e015cc64bfd6d4c8c140c96fb1e3e2bea8fa289cf6b7f0916c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f6c8e11796c20226350568468cd80a63e70f863c642c20851fdda223cdf22d2",
+				"dweb:/ipfs/QmcinbVFfWBpRvV89gUJPb63D8R7DccRkRqJGwjRRCTvvi"
+			]
+		}
+	},
+	"version": 1
+}

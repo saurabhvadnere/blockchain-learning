@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"transfe.sol": "Tranfer"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"transfe.sol": {
+			"keccak256": "0x6f25b72b246038a797b7ab789e9dbdd87cc50bb9727df34ef9dedc93ce29627b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8344c3e44ae321848324a58d083719eb0e1cd53201cfee5762c8fdd8985b02ad",
+				"dweb:/ipfs/QmQ2Fqyh6jpoQc7RMYCPSdEvKccMSvcGnWGLM77KScfTFm"
+			]
+		}
+	},
+	"version": 1
+}

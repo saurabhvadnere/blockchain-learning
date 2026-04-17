@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "onetweet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tweet.sol": "Mytweet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tweet.sol": {
+			"keccak256": "0xd0ec597747d5dd56a1a7dc3de5f61cbac4fe40b4ab3c2e8dd5cbb2177c486ba9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://940df7246b512dd1c2fe12e2c650af8348d984e900defbd8ea06ed514b6f9ad6",
+				"dweb:/ipfs/QmcGRLsqbBksX7DEhiQYEMd9hDz7FrLJvULFZUDujFpXRV"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_merkleRoot",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getLeaf",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "merkleRoot",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "leaf",
+						"type": "bytes32"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"merkle.sol": "BasicMerkleTree"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"merkle.sol": {
+			"keccak256": "0x525c36d56cd3dae8de84fa2ef36dd90d4261d972a2ba9a47ff97e0cc384937a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c3e87039840d6167d04ce72d515ebd939746349fba2e8e8b1b409a90802e84e",
+				"dweb:/ipfs/QmZMDuEtnZNTfkTDEiGMSLjJdryyX1vhJQtzsXmooWeUpN"
+			]
+		}
+	},
+	"version": 1
+}

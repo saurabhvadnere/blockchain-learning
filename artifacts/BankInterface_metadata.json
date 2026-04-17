@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interface.sol": "BankInterface"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface.sol": {
+			"keccak256": "0xfa67ad1be44299043b0952ce2939959548258da4a5e4dd88b7a20b6df30a9ed9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7cb9a9943c1007c7d420c15cb7ab742c35ac40d1aec1bfb5c2e562b861dbf3ec",
+				"dweb:/ipfs/Qmd5FaHFGBsnoM6wqfudfTsEpRGXLku7yFZr3ws7qDLc1D"
+			]
+		}
+	},
+	"version": 1
+}

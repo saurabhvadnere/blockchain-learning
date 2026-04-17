@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_choice",
+				"outputs": [
+					{
+						"internalType": "enum Types.week_days",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getdefaultvalue",
+				"outputs": [
+					{
+						"internalType": "enum Types.week_days",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "set_value",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enum.sol": "Types"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enum.sol": {
+			"keccak256": "0xcd4cb76076d7ea756449a426ede06b080f1df4ae9dfe14473838429f8872145c",
+			"urls": [
+				"bzz-raw://291e6ddf08ad20471c8af7baede2e857cbf6914f859a5013d3b4f36b72f5ae36",
+				"dweb:/ipfs/QmQUHDMMaC1xEasErK8Gwh26ADEtGoMRLFcAJ6oEzTaGtC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"first.sol": "MyFirstContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"first.sol": {
+			"keccak256": "0x5ad190c3c373f6a27b5df8f3b1eed556ead75f7e0ef1eddf52218643dacbc0ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bcc0441f9e7ba1904f3db3fc7f0e53a7bee04292c218999d28f0319661eaf4b",
+				"dweb:/ipfs/QmRcLLGgtTmNC5uqZaGMnMYmn5KqvAGHo3f8i59MuPHuFn"
+			]
+		}
+	},
+	"version": 1
+}

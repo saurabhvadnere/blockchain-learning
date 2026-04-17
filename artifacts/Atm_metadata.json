@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "bank_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "add_money",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interface_atm.sol": "Atm"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface_atm.sol": {
+			"keccak256": "0x7c23a739967916ad6731f2a376d5d504b00f5eb43d74a7b350ecd21500aa482c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://17b228831ca1cfb1ea0417de43b5a798bb55aa3fd049f965de1b60cf8cf2c6c8",
+				"dweb:/ipfs/QmPqepUzGRwMcGoHeEssTKh62F2uy8WNpMKM6pQjBgppU8"
+			]
+		},
+		"interface_bank.sol": {
+			"keccak256": "0x1349e22526be94583ca53783d661756faf721ee99c29d70dab5cbf4de6e9e2e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48898d2154cb1ee1184ddac7930d3b9086fb18ea395f4a49827e4800a1aef4e9",
+				"dweb:/ipfs/Qmf4MJ8tesdDbAHTeVjQSPqc2GHNPQWRBxKbxVd2kUC28v"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "EV",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Premium_Car",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "car_showroom",
+				"outputs": [
+					{
+						"internalType": "enum Car_Rental.Car_Type",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Car_Rental.Car_Type",
+						"name": "enter_sq",
+						"type": "uint8"
+					}
+				],
+				"name": "getcar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset_choice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enum.sol": "Car_Rental"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enum.sol": {
+			"keccak256": "0x86344c64c9284a348303218ff0d34e4808a690567f3170ebbd5dea62b40cfbfa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6859daa04e71a2cf03b87c199fbfd536c889c4e2132079e235ffd1ae1095cdd",
+				"dweb:/ipfs/Qmcc69LZvE7vnZnchMDRmuE63NVbVtHmwB774kSACwcLDG"
+			]
+		}
+	},
+	"version": 1
+}

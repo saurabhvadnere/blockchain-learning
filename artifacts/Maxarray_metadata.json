@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"maxArray.sol": "Maxarray"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"maxArray.sol": {
+			"keccak256": "0xb44ac2068ddb51265921e3ca26d01c0f5342f1333c7db74ebf56778ae7cd1898",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7172ab103a21a54b379e7825ef1f93889d507aa829c781c173aee5fe6332f036",
+				"dweb:/ipfs/QmbqYjGm5PoAUCKy6veQEhNySuRvU36Gcdpvk6fFveWutk"
+			]
+		}
+	},
+	"version": 1
+}

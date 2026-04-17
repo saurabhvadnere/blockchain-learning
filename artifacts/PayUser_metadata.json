@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "sendETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"user.sol": "PayUser"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"user.sol": {
+			"keccak256": "0x68df00dc553c79e6d3b8deeb2161e55dbb1efce5b230e91777d598d71ba4ae08",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6de9c797972f2b7e4b153ca1006fd6fd901a6b77268be2fc04779a9636179fa",
+				"dweb:/ipfs/QmP3GmpQWUsPS3dWF3nN26WpwMiGrMwt9posZRmz7eyyHU"
+			]
+		}
+	},
+	"version": 1
+}

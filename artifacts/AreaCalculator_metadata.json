@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "calculator",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Length",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Width",
+						"type": "uint256"
+					}
+				],
+				"name": "InchSqFt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Use_Cal.sol": "AreaCalculator"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Use_Cal.sol": {
+			"keccak256": "0x242d9ec884014fdca79dcb490147a35e4f5ec548ed2468e0d3beab1188fe3427",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f424faac663d32ecd65b04b6ad4e1a92d9ee550317db50e1a5b02ab04d20ce10",
+				"dweb:/ipfs/QmejeSEVmb4RBPheAhVuuJ54wR7QaptFmMmj3kKw46i3Ju"
+			]
+		},
+		"calculator.sol": {
+			"keccak256": "0x63c4710e22571a9284b3c562ba1762313c90cc0ef41b8d71c66c7236d8f8c606",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dd7650b2c286993c56fb46bd224534a5c12b145f32219b1b2b59943ef17785fa",
+				"dweb:/ipfs/QmfAvyxrCkh5uAn2EvsV8vGPkMMBVzWrZPmsKCuiyonc2k"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getcar",
+				"outputs": [
+					{
+						"internalType": "enum Enum_Demo.Car_Type",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enum.sol": "Enum_Demo"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enum.sol": {
+			"keccak256": "0x63d44891b209fdd5a6632e0786a763bbab86d850bac5a0195410d9b7db2e0a66",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://88edce75161f99b8c7e6d42bd9997a835b9f37d91fba53a0f46badea487381b3",
+				"dweb:/ipfs/QmVbTLNL1QPk3uyedrteYSnpfkoNhTFBzpxvfMHA7kDJLv"
+			]
+		}
+	},
+	"version": 1
+}

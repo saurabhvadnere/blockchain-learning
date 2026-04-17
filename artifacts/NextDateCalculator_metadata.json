@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "day",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					}
+				],
+				"name": "getNextDate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ddmm.sol": "NextDateCalculator"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ddmm.sol": {
+			"keccak256": "0xe1464cafdb128692ed6824731a44cbcd653d1ae38510a27e2fe92a603f3955ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cec5f8786339dcdb494318a544573eafc99753644e33ab20c4f6a19fcd09b691",
+				"dweb:/ipfs/QmSp8st55Nn1jFE3yNcxHbBuhuesKZfyhKWCaVTRQJLta2"
+			]
+		}
+	},
+	"version": 1
+}
